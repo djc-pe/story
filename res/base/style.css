@@ -1,4 +1,12 @@
-/* Contenedor principal */
+body {
+  margin: 0;
+  font-family: var(--font-base);
+  background: var(--color-bg);
+  color: var(--color-text);
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
 main.content {
     max-width: 900px;       /* Limita el ancho en pantallas grandes */
     margin: 0 auto;         /* Centra horizontalmente */
