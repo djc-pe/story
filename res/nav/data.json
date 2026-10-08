@@ -1,0 +1,54 @@
+{
+  "root": "https://www.djc.pe/",
+  "story": "https://story.djc.pe/",
+  "site": "https://tutorial.djc.pe/",
+  "page": "https://page.djc.pe/",
+  "g1": "https://g1.djc.pe/",
+
+  "icons": {
+    "menu": "https://story.djc.pe/res/s/www/img/menu-white.svg",
+    "logo": "https://story.djc.pe/res/s/www/img/logo.png",
+    "logoMobile": "https://story.djc.pe/res/s/www/img/logo-mobile.png",
+    "search": "https://story.djc.pe/res/s/www/img/search.svg",
+    "user": "https://story.djc.pe/res/s/www/img/user-white.svg"
+  },
+
+  "labels": {
+    "menu": "Menu",
+    "logo": "Home",
+    "search": "Buscar",
+    "searchIcon": "Search",
+    "user": "User",
+    "close": "Cerrar"
+  },
+
+  "search": {
+    "urlTemplate": "/search/q/{hash}/?text={query}",
+    "algo": "SHA-256"
+  },
+
+  "drawers": {
+    "main": {
+      "id": "mainMenu",
+      "side": "left",
+      "title": "DJC",
+      "links": [
+        { "text": "G1", "url": "{{g1}}" },
+        { "text": "Page", "url": "{{page}}" },
+        { "text": "Story", "url": "{{story}}" },
+        { "text": "Tutorial", "url": "{{site}}" },
+        { "hr": true }
+      ]
+    },
+    "user": {
+      "id": "userMenu",
+      "side": "right",
+      "title": "Mi cuenta",
+      "links": [
+        { "text": "Iniciar sesión", "url": "#" },
+        { "text": "Registrarse", "url": "#" },
+        { "hr": true }
+      ]
+    }
+  }
+}
