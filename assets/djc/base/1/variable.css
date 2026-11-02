@@ -1,0 +1,25 @@
+:root {
+/* Tipografía */
+--font-base: 'Inter', sans-serif;
+--font-heading: 'Poppins', sans-serif;
+
+/* Superficies */
+--color-bg: #000000;
+--color-surface: #141414;
+
+/* Texto */
+--color-text: #FFFFFF;
+--color-text-muted: #9CA3AF;
+--color-text-inverse: #FFFFFF;
+
+/* Marca */
+--color-primary: #000000;
+--color-accent: #e5f774;
+
+/* Variantes */
+--color-accent-hover: #e5f774;
+--color-accent-dark: #e5f774;
+
+/* UI */
+--color-border: #e5f774;
+}
