@@ -1,0 +1,34 @@
+{
+  "format": 2,
+  "site": "story",
+  "host": "https://story.djc.pe",
+  "updated": null,
+  "model": {
+    "id": "all-MiniLM-L6-v2",
+    "file": "onnx/model_quantized.onnx",
+    "sha256": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1",
+    "dims": 384,
+    "max_tokens": 256,
+    "pooling": "mean",
+    "normalize": true
+  },
+  "docs": 4,
+  "chunks": 17,
+  "vectors": {
+    "type": "int8",
+    "scale": "per-vector"
+  },
+  "nodes": [
+    {
+      "file": "nodes/0.json",
+      "version": "6a4fbe052f71",
+      "docs": 4,
+      "chunks": 17,
+      "centroid": {
+        "scale": 0.001595059,
+        "data": "7BPp7cobH/spGQz9A/nv+uEhKjTw6gIj6CAYJNfGGDUm6RoZB74jL+f86wXq4uj6JNmp7PAJCAQYCxby+CoAOBfT8i3yBfztBx7jAufk5sv48Lvr5PgaHRn7D/4L3wDy++UKJT0y/ucW4wYGEgrWDLbk1i9E3crOFdHuFfHYEgAE2Bc4LT3uDeXs7f/n/f0iu9MBFgr+/iwKLvb3JisN9QfeKhoV8/IT3v4P6wUk/f8C6/PZzfAX5+YF/iNkC/UNF+scH0IA7fjvIs0Z7+DXA9EZCwgeATjijx3qQzT8AgAN+e3d/sjrMQgE4pUX7hQJ9da/RBES5Qj5D0Qvs/QCzM0HzB4S5f4WJQ3q/8nN8wYH9Afe8B8C/Oz+DgUVLcUNDvMVIPnlKPO4GukMgRQXBAXW4xw2EAP97P/8CycU/QDw3/PtRgDSCedRBRDnLw4NKh0D6A8Y7dXjFMX86hAYIPjX/xH77+v4NPrw+AnpE+MILQfnNQD73vQ40AgsKPwW"
+      }
+    }
+  ],
+  "version": "f12e318f784b"
+}
