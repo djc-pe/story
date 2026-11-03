@@ -15,7 +15,7 @@
  * carpeta: la carpeta de la version se puede copiar entera sin tocar rutas.
  *
  * Version: cada cambio en esta carpeta sube VERSION (abajo) y se anota en
- * ../CHANGELOG.md. VERSION va como ?v= en todo lo que pide este script, asi
+ * changelog/story/nav.md (repo de origen). VERSION va como ?v= en todo lo que pide este script, asi
  * un script nuevo nunca se mezcla con un data.json o un nav.css viejos de la
  * cache. Un cambio incompatible no va aqui: va en una carpeta nueva (2/).
  *
